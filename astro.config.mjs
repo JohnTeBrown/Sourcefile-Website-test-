@@ -1,14 +1,4 @@
 import { defineConfig } from 'astro/config';
-import { transform } from '@astrojs/esbuild';
 
-export default defineConfig({
-  buildOptions: {
-    astro: {
-      esbuildOptions: {
-        loader: {
-          '.ts': 'tsx',
-        },
-      },
-    },
-  },
-});
+// https://astro.build/config
+export default defineConfig({});
