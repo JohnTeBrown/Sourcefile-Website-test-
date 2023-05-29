@@ -1,5 +1,5 @@
 ---
-import DownloadManager from "../components/DownloadManager.ts";
+import DownloadManager from '../components/DownloadManager.ts';
 ---
 
 <html lang="en">
@@ -54,13 +54,9 @@ import DownloadManager from "../components/DownloadManager.ts";
 			</ul>
 		</nav>
 		<br />
-		<p>
-			Welcome to sourcefile, sourcefile is a private download page used by
-			Dusk&Rain studios and BreakingRain cyber security firm.
-		</p>
-		<p>each private studio/company will have their own download catagory. </p>
-		<p>sourcefile is not a dedicated upload platform like mediafire.</p>
-		<br />
-		<download-manager .files="${files}"></download-manager>
+		<p>Welcome to sourcefile, sourcefile is a private download page used by Dusk&Rain studios and BreakingRain cyber security firm</p>
+		<p></p>
+		<br>
+		<download-manager .files=${files}></download-manager>
 	</body>
 </html>
