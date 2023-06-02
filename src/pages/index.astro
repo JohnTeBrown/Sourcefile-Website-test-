@@ -1,17 +1,13 @@
 ---
-import blankpage from '../layouts/blank-page.astro';
----
-
-<html lang="en">
-	<head>
-		
-		<script lang="js">
-			import { DownloadManager } from '../js/DownloadManager.js';
+import { DownloadManager } from '../js/DownloadManager.js';
 			import { html, render } from 'lit';
 
 			const root = document.getElementById('root');
 			render(html`<download-manager></download-manager>`, root);
-		  </script>
+---
+
+<html lang="en">
+	<head>
 
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
