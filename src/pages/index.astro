@@ -4,6 +4,15 @@ import blankpage from '../layouts/blank-page.astro';
 
 <html lang="en">
 	<head>
+		
+		<script lang="js">
+			import { DownloadManager } from '../js/DownloadManager.js';
+			import { html, render } from 'lit';
+
+			const root = document.getElementById('root');
+			render(html`<download-manager></download-manager>`, root);
+		  </script>
+
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
@@ -63,16 +72,7 @@ Suspendisse cursus scelerisque tortor, at condimentum mauris tristique eu. Maece
 		<p></p>
 		<p></p>
 		<br />
-		<script lang="js">
-			import { DownloadManager } from '../js/DownloadManager.js';
-			import { html, render } from 'lit';
 
-			const root = document.getElementById('root');
-			render(html`<download-manager></download-manager>`, root);
-		  </script>
-
-		  <div id="root"></div>
-
-		  <download-manager url=></download-manager>
+		  <download-manager></download-manager>
 	</body>
 </html>
