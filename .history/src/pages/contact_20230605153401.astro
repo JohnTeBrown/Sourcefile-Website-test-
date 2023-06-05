@@ -1,13 +1,16 @@
+---
+---
+
 <!DOCTYPE html>
 <html>
   <head>
-    <title>About SourceFile</title>
+    <title>Contact Page</title>
     <style>
       body {
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
-        background-color: #fff;
+        background-color: #f1f1f1;
       }
 
       .container {
@@ -18,13 +21,44 @@
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
       }
 
-      h2 {
-        margin-top: 0;
-      }
-
-      p {
+      .form-group {
         margin-bottom: 20px;
       }
+
+      .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+
+      .form-group input,
+      .form-group textarea {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      .form-group textarea {
+        resize: vertical;
+        height: 100px;
+      }
+
+      .form-group button {
+        padding: 10px 20px;
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      .form-group button:hover {
+        background-color: #45a049;
+      }
+
       nav {
         background-color: #3c8ce1;
         color: #fff;
@@ -50,7 +84,7 @@
       }
 
       nav a:hover {
-        background-color: #555;
+        background-color: #464647;
       }
       .marquee {
         background-color: yellow;
@@ -93,29 +127,25 @@
       unfinished.</marquee
     >
     <br />
-    <h2>About SourceFile</h2>
-    <p>
-      SourceFile is a private access download site for projects available on the
-      Dusk&Rain GitHub and BreakingRain Security LLC GitHub. It was founded in
-      2022 and serves as a centralized hub for accessing and downloading various
-      projects and resources provided by these organizations.
-    </p>
-    <p>
-      Our goal is to provide a convenient platform for users to explore and
-      acquire the latest projects from Dusk&Rain and BreakingRain Security LLC.
-      By offering a curated selection of software, tools, and resources, we aim
-      to support developers and security enthusiasts in their projects and
-      endeavors.
-    </p>
-    <p>
-      Please note that access to SourceFile is restricted to authorized
-      individuals with valid credentials. If you are a member of Dusk&Rain or
-      BreakingRain Security LLC, you can log in using your provided account
-      information. For any inquiries or assistance, please reach out to our
-      support team.
-    </p>
-    <p>
-      <strong>This page can and will be subject to change.</strong>
-    </p>
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
   </body>
 </html>
