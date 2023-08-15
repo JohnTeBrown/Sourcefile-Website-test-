@@ -9,7 +9,7 @@ function delay(ms: number) {
 async function checkConnectionSpeed() {
   const startTime = performance.now();
   try {
-    await fetch('https://johntebrown.github.io/Sourcefile-Website-Revamped/');
+    await fetch('https://example.com'); // Replace with your website URL
     const endTime = performance.now();
     const duration = endTime - startTime;
     return duration;
