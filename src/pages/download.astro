@@ -82,6 +82,32 @@ nav {
         background-color: yellow;
         color: black;
       }
+      /* Style the details container */
+    details {
+      cursor: pointer;
+    }
+
+    /* Hide the default arrow */
+    details summary::-webkit-details-marker {
+      display: none;
+    }
+
+    /* Style the summary text */
+    details summary {
+      font-weight: bold;
+      padding: 0.5em;
+      border: 1px solid #ccc;
+      background-color: #f0f0f0;
+      border-radius: 5px;
+    }
+
+    /* Style the content inside the details */
+    details > div {
+      padding: 0.5em;
+      border: 1px solid #ccc;
+      border-top: none;
+      border-radius: 0 0 5px 5px;
+    }
       </style>
   </head>
   <body>
