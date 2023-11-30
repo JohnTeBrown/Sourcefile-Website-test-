@@ -108,6 +108,9 @@ nav {
       border-top: none;
       border-radius: 0 0 5px 5px;
     }
+    #border {
+    border-style: double solid;
+    }
       </style>
   </head>
   <body>
@@ -157,7 +160,7 @@ nav {
     <section class="center">
      <details>
       <summary>Nexus Final</summary>
-      <button class="download-button" x-on:click="downloadFile('../pages/downloads/test-file.txt')">Download Nexus Final</button>
+      <button id="border" class="download-button" x-on:click="downloadFile('../pages/downloads/test-file.txt')">Download Nexus Final</button>
      </details>
       </section>
       </div>
