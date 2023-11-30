@@ -88,28 +88,28 @@ nav {
     <nav>
  <ul>
    <li>
-     <a href="https://johntebrown.github.io/Sourcefile-Website-Revamped/"
+     <a href="https://rainsoftware.github.io/Sourcefile-Website-Revamped/"
        >Home</a
      >
    </li>
    <li>
      <a
-       href="https://johntebrown.github.io/Sourcefile-Website-Revamped/about"
+       href="https://rainsoftware.github.io/Sourcefile-Website-Revamped/about"
        >About</a>
    </li>
    <li>
      <a
-       href="https://johntebrown.github.io/Sourcefile-Website-Revamped/contact"
+       href="https://rainsoftware.github.io/Sourcefile-Website-Revamped/contact"
        >Contact</a>
    </li>
    <li>
      <a
-       href="https://johntebrown.github.io/Sourcefile-Website-Revamped/wiki"
+       href="https://rainsoftware.github.io/Sourcefile-Website-Revamped/wiki"
        >Wiki</a>
    </li>
     <li>
   <a
-    href="https://johntebrown.github.io/Sourcefile-Website-Revamped/download"
+    href="https://rainsoftware.github.io/Sourcefile-Website-Revamped/download"
     >Download</a>
 </li>
  </ul>
@@ -117,31 +117,23 @@ nav {
  <marquee class="marquee">Sourcefile is currently undergoing maintenance, things may be broken or
  unfinished.</marquee>
  <br />
-    <div
-      x-data="{
-    downloadFile: function(url) {
-      const link = document.createElement('a');
-      link.href = url;
-      link.download = '';
-      link.click();
-    }
-  }">
-    </div>
-      <div class="download-manager">
-        <div class="download-item">
-          <div class="download-icon">
-            <i class="fas fa-file"></i>
-          </div>
-          <div class="download-info">
-            <h3 class="download-title">test-file</h3>
-            <p class="download-size">Size: ???</p>
-          </div>
-          <button
-            class="download-button"
-            x-on:click="downloadFile('../pages/downloads/test-file.txt')">Download</button
-          >
         </div>
       </div>
     </div>
+    <div x-data="{
+      downloadFile: function(url) {
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = '';
+        link.click();
+      }
+    }">
+    <section class="center">
+     <details>
+      <summary>Nexus Final</summary>
+      <button class="download-button" x-on:click="downloadFile('../pages/downloads/test-file.txt')">Download Nexus Final</button>
+     </details>
+      </section>
+      </div>
   </body>
 </html>
