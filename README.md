@@ -43,7 +43,7 @@ The Sourcefile Website repository is licensed under the [MIT License](LICENSE). 
 
 Please note that each project within this repository may have its own specific license. Make sure to review the license file included in each project's directory for detailed information.
 
-If you have any questions or need further assistance, please reach out to us at [contact@example.com](mailto:contact@example.com).
+If you have any questions or need further assistance, please reach out to us at [contact@example.com](mailto:meekoo459@proton.me).
 
 Thank you for your interest in our projects!
 
