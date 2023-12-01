@@ -1,6 +1,6 @@
 # Sourcefile Website Repository
 
-Welcome to the Sourcefile Website repository! This repository houses the files required for the GitHub Pages website, designed to provide easy access ad download of projects and software developed by Dusk & Rain Studios, Ant Softworks, Oxide Cheats, and BreakingRain CyberSecurity.
+Welcome to the Sourcefile Website repository! This repository houses the files required for the GitHub Pages website, designed to provide easy access and download of projects and software developed by Dusk & Rain Studios, Ant Softworks, Oxide Cheats, and BreakingRain CyberSecurity.
 
 ## Table of Contents
 
