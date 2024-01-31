@@ -1,3 +1,4 @@
+![Build Status](https://github.com//rainsoftware/Sourcefile-Website-Revamped/actions/workflows/astro.yml/badge.svg)
 # Sourcefile Website Repository
 
 Welcome to the Sourcefile Website repository! This repository houses the files required for the GitHub Pages website, designed to provide easy access and download of projects and software developed by Dusk & Rain Studios, Ant Softworks, Oxide Cheats, and BreakingRain CyberSecurity.
