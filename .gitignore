@@ -4,3 +4,6 @@
 # Misc
 .history
 .vscode
+
+# Meta SCM
+.sl
