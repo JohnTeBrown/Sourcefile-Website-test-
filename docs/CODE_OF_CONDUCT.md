@@ -1,10 +1,10 @@
 # Code Of Conduct
-> this is the rules and polcies all contributors are expected to follow before commiting anything to the repository
+> these are the rules and polcies all contributors are expected to follow before commiting anything to the repository
 
 
 # Obfuscation & Packing
 
-Obfuscation and Packing files to make source code ineligible or difficult to understand is strictly forbidden and doing so will result in your changes being rolled back and you added to a list of "Potentially malicious commiters"
+Obfuscating and Packing files to make source code ineligible or difficult to understand is strictly forbidden and doing so will result in your changes being rolled back and you added to a list of "Potentially malicious commiters"
 
 # Modifying Source Code & It's dependencies
 
