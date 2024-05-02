@@ -36,7 +36,7 @@ We appreciate contributions from the open-source community to enhance our projec
 
 5. Our team will review your contribution, provide feedback if necessary, and merge it if it meets our quality standards.
 
-By contributing to this repository, you agree to abide by the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md).
+By contributing to this repository, you agree to abide by the [Contributor Covenant Code of Conduct](docs/CODE_OF_CONDUCT.md).
 
 ## License
 
